@@ -1,4 +1,8 @@
-atomic_map = {
+from typing import Dict, List
+
+
+# Maps atomic features to their numeric values
+atomic_map: Dict[str, List] = {
     'atomic_num': list(range(0, 119)),
     'chirality': [
         'CHI_UNSPECIFIED',
@@ -29,7 +33,8 @@ atomic_map = {
     'is_in_ring': [False, True],
 }
 
-bond_map = {
+# Maps bond features to their numeric values
+bond_map: Dict[str, List] = {
     'bond_type': [
         'UNSPECIFIED',
         'SINGLE',
