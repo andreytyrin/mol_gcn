@@ -46,7 +46,7 @@ class MoleculeDataLoader:
 
 
 if __name__ == "__main__":
-    csv_file = "/Users/andreytyrin/Desktop/molecular_gcn/free_energy_solv.csv"
+    csv_file = "..."
     batch_size = 32
     loader = MoleculeDataLoader(csv_file, batch_size)
     data_loader = loader.get_data_loader()
